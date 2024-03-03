@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FormularioEmpresa",
+    "dateExported": "2024-03-03T03:37:04.364Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d4ba4d93-2ddf-4eec-b50f-76178382623a",
+            "colId": "7a53b9d0-c086-4636-8855-6fdf2728db51",
+            "containerId": "",
+            "name": "createEmpresa",
+            "url": "http://localhost:8080/api/company",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T23:16:36.822Z",
+            "modified": "2024-03-03T00:44:34.430Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYjE5M2Q4ZjAzZGIxYWY3MjJjMzEiLCJpYXQiOjE3MDk0MjY2NjUsImV4cCI6MTcwOTQzMDI2NX0.2bWpYf6mu1tXcPsEKPdIH-1uFwYISwqOZzHQjOhtzJw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"prueba\",\n  \"level\":\"Pollinesio\",\n  \"age\":\"Esta culera esta desde 1674\",\n  \"category\":\"Venta de gersons (negros)\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ad3e78d9-475c-4972-862d-90de84519e93",
+            "colId": "7a53b9d0-c086-4636-8855-6fdf2728db51",
+            "containerId": "",
+            "name": "updateCompany",
+            "url": "http://localhost:8080/api/company/65e3b89d46e7ecbcc866625f",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T00:06:20.729Z",
+            "modified": "2024-03-03T01:12:46.477Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYjE5M2Q4ZjAzZGIxYWY3MjJjMzEiLCJpYXQiOjE3MDk0MjQ5NzIsImV4cCI6MTcwOTQyODU3Mn0.KhWcrmqgLJmBdtrOVusJg6WHYdJvjuTOFfeNAAp9IpQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"laspajkasdelgerson\",\n  \"level\":\"Pollinesio\",\n  \"age\":\"Esta amigable empresa esta desde 1674\",\n  \"category\":\"Venta de chocolates (sabrosos)\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "069df1b7-8125-41cd-8869-759eee2938b6",
+            "colId": "7a53b9d0-c086-4636-8855-6fdf2728db51",
+            "containerId": "",
+            "name": "generarExcelCompanys",
+            "url": "http://localhost:8080/api/company/generar-reporte",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-03T01:36:26.711Z",
+            "modified": "2024-03-03T02:03:28.023Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7e394aa4-31b2-406b-9e69-594e92e487b6",
+            "colId": "7a53b9d0-c086-4636-8855-6fdf2728db51",
+            "containerId": "",
+            "name": "listFiltrada",
+            "url": "http://localhost:8080/api/company/list",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-03T02:59:17.380Z",
+            "modified": "2024-03-03T03:19:17.518Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

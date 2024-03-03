@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "creacionAdmin",
+    "dateExported": "2024-03-03T03:36:43.699Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "00924a6d-03d4-4440-a13c-d050418d63a4",
+            "colId": "9a58299d-c012-4ad1-92c3-edf8ca2747fc",
+            "containerId": "",
+            "name": "createaAdmin",
+            "url": "http://localhost:8080/api/admin",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T21:44:36.787Z",
+            "modified": "2024-03-02T23:09:06.379Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"LAcabra99\",\n  \"correo\":\"brandomgomez599@gamil.com\",\n  \"password\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

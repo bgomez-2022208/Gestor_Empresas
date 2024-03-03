@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "LoginAdmin",
+    "dateExported": "2024-03-03T03:36:58.228Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a1043070-fb55-4422-8f6c-c4592ef75948",
+            "colId": "f0d37413-9dea-4a20-be78-5cde17b76a8f",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:8080/api/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T22:23:51.184Z",
+            "modified": "2024-03-02T23:11:38.530Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"brandomgomez599@gamil.com\",\n  \"password\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
