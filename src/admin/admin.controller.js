@@ -2,7 +2,7 @@
  
 import { response, request } from "express";
 import bcryptjs from 'bcryptjs';
-import Admin from './admin.model';
+import Admin from './admin.model.js';
  
 // Middleware para verificar si el usuario es administrador
 export const isAdmin = (req, res, next) => {

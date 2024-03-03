@@ -1,6 +1,6 @@
-import moongose from 'mongoose';
+import mongoose from 'mongoose';
 
-const AdminSchema = moongose.Schema({
+const AdminSchema = mongoose.Schema({
     nombre: {
         type: String,
         required: [true, "The name is required"],
