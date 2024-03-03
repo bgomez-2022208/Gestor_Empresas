@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "creacionAdmin",
-    "dateExported": "2024-03-03T03:36:43.699Z",
+    "dateExported": "2024-03-03T03:43:31.214Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,12 +14,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-02T21:44:36.787Z",
-            "modified": "2024-03-02T23:09:06.379Z",
+            "modified": "2024-03-03T03:41:10.118Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\":\"LAcabra99\",\n  \"correo\":\"brandomgomez599@gamil.com\",\n  \"password\":\"12345678\"\n}",
+                "raw": "{\n  \"nombre\":\"Emanuel\",\n  \"correo\":\"brandomgomez599@gamil.com\",\n  \"password\":\"12345678\"\n}",
                 "form": []
             },
             "tests": []

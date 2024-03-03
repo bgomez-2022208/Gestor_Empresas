@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "FormularioEmpresa",
-    "dateExported": "2024-03-03T03:37:04.364Z",
+    "dateExported": "2024-03-03T03:43:46.183Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,7 +14,7 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-02T23:16:36.822Z",
-            "modified": "2024-03-03T00:44:34.430Z",
+            "modified": "2024-03-03T03:42:13.468Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -24,7 +24,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\":\"prueba\",\n  \"level\":\"Pollinesio\",\n  \"age\":\"Esta culera esta desde 1674\",\n  \"category\":\"Venta de gersons (negros)\"\n}",
+                "raw": "{\n  \"name\":\"Tecnologi\",\n  \"level\":\"Nivel de impacto alto en la sociedad\",\n  \"age\":\"Creada en 1997\",\n  \"category\":\"Venta de electrodomesticos\"\n}",
                 "form": []
             },
             "tests": []
@@ -38,7 +38,7 @@
             "method": "PUT",
             "sortNum": 20000,
             "created": "2024-03-03T00:06:20.729Z",
-            "modified": "2024-03-03T01:12:46.477Z",
+            "modified": "2024-03-03T03:43:03.857Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -48,7 +48,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\":\"laspajkasdelgerson\",\n  \"level\":\"Pollinesio\",\n  \"age\":\"Esta amigable empresa esta desde 1674\",\n  \"category\":\"Venta de chocolates (sabrosos)\"\n}",
+                "raw": "{\n  \"name\":\"Is4Teach\",\n  \"level\":\"Medio\",\n  \"age\":\"Creada en 1997\",\n  \"category\":\"Venta de electrodomesticos\"\n}",
                 "form": []
             },
             "tests": []
